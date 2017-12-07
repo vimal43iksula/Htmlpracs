@@ -1,0 +1,55 @@
+<!Doctype html>
+<head>
+<style>
+body{
+background-color:lightgreen;
+}
+</style>
+</head>
+
+<body>
+
+<form>
+
+<h1 align="center"> EXAM FORM Login</h1> 
+
+<a href="register.html">For new registration </a>
+
+<h4> Candidate Login </h4>
+<fieldset>
+<p>
+<label>*firstname :</label>
+<input type="text" name="firstname">
+</p>
+<p>
+<label>*password :</label>
+<input type="password" name="password">
+</p>
+
+<p>
+<label>*Examination</label>
+<select>
+   <Option value="10th">10th</option>
+   <Option value="12th">12th</option>
+   <Option value="degree">degree</option> 	 
+</select>
+</p>
+
+<p>
+<input type="checkbox">I agree the terms and condition<br>
+</p>
+
+<p>
+<input type="submit" value="Login">
+
+
+
+
+</p>
+</fieldset>
+
+</form>
+
+</body>
+
+</html>
